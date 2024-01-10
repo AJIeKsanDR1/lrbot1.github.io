@@ -3,27 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Интерактивный бот</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>PC Components Shop</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div id="menu">
-        <h2>Меню бота</h2>
-        <button onclick="addItem('Пицца', 10)">Добавить Пиццу</button>
-        <button onclick="addItem('Бургер', 8)">Добавить Бургер</button>
-        <button onclick="addItem('Салат', 5)">Добавить Салат</button>
-        <button onclick="addItem('Картофель фри', 7)">Добавить Салат</button>
-        <button onclick="addItem('Кола', 4)">Добавить Салат</button>
-        <button onclick="addItem('Pepsi', 5)">Добавить Салат</button>
-        <button onclick="addItem('Шаурма', 7)">Добавить Салат</button>
-        <button onclick="addItem('Донер', 8)">Добавить Салат</button>
-
-        <h3>Корзина</h3>
-        <ul id="cart"></ul>
-
-        <button onclick="checkout()">Оформить заказ</button>
-    </div>
-
+    <header>
+        <h1>PC Components Shop</h1>
+    </header>
+    <main>
+        <section class="products">
+            <!-- Пример продукта -->
+            <article class="product">
+                <img src="path_to_image" alt="Product Name">
+                <h2>Product Name</h2>
+                <p>Product Description</p>
+                <p>Price: $Product Price</p>
+                <button>Add to Cart</button>
+            </article>
+            <!-- Добавьте дополнительные продукты здесь -->
+        </section>
+    </main>
+    <footer>
+        <p>© 2024 PC Components Shop</p>
+    </footer>
     <script src="script.js"></script>
 </body>
 </html>
